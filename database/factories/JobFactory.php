@@ -23,4 +23,6 @@ class JobFactory extends Factory
             'salary'=> fake()->numberBetween(20,70)*1000,
         ];
     }
+    
 }
+
