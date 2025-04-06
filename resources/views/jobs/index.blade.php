@@ -9,7 +9,7 @@
             <a href="/jobs/{{ $job['id'] }}" class="block px-4 px-6 border border-gray-200 rounded-lg">
                 <div class="font-bold text-blue-500 text-sm">{{ $job->employer->name }}</div>
                 <div>
-                    <strong>{{ $job['title'] }}:</strong> pays a {{ $job['salary'] }} per year salary.
+                    <strong>{{ $job['title'] }}:</strong> pays a ${{ $job['salary'] }} per year salary.
                 </div>
             </a>
         @endforeach
