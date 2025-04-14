@@ -1,6 +1,10 @@
 <x-layout>
     <x-slot:heading>
-        Jobs page
+    
+        <div class="sm:flex sm:justify-between">
+            <p>Jobs page</p>
+            <x-button href="/jobs/create">Create Job</x-button>    
+        </div>
     </x-slot:heading>
 
     <h1>Hello from the Jobs page.</h1>
