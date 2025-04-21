@@ -7,7 +7,7 @@
         </div>
     </x-slot:heading>
 
-    <h1>Hello from the Jobs page.</h1>
+
     <div class="space-y-4">
         @foreach ($jobs as $job)
             <a href="/jobs/{{ $job['id'] }}" class="block px-4 px-6 border border-gray-200 rounded-lg">
